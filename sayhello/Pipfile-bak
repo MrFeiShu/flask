@@ -1,0 +1,25 @@
+[[source]]
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+greenlet = "*"
+itsdangerous = "*"
+jinja2 = "*"
+markupsafe = "*"
+pip = "*"
+python-dateutil = "*"
+python-dotenv = "*"
+setuptools = "*"
+six = "*"
+sqlalchemy = "*"
+watchdog = "*"
+werkzeug = "*"
+wtforms = "*"
+flask = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
